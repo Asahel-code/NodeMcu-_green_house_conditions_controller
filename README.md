@@ -22,4 +22,4 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ## System board sketch diagram
 
-<img src="./img.jpg" alt="sketch" />
+<img src="./img.png" alt="sketch" />
