@@ -6,8 +6,8 @@
 
 #include <FirebaseESP32.h>   // Including library for firebase
 
-const char *ssid =  "Kali-root";  // wifi ssid 
-const char *pass =  "12345-@-67890"; // wifi password
+const char *ssid =  "";  // wifi ssid 
+const char *pass =  ""; // wifi password
 
 //Pins where the dht11 is connected
 #define DHTPIN 18 
@@ -22,9 +22,9 @@ const char *pass =  "12345-@-67890"; // wifi password
 #define R3 16
 
 // Firebase Credentials
-#define firebase_host "https://weathercontrol-2f7b6-default-rtdb.firebaseio.com"
-#define firebase_auth "pjBaqUPXPkfDNUfLVrt20LHI8ZFg6ILY6KxMoS47"
-#define user "/e545328d-baf9-4c80-859f-f1aa149b2266" 
+#define firebase_host ""
+#define firebase_auth ""
+#define user "" 
 
 //Define Firebase Data object
 FirebaseData fbdo;
